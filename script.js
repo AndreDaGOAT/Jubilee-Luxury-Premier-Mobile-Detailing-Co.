@@ -86,7 +86,7 @@ if (quoteForm) {
       return;
     }
 
-    if (settings.formspreeEndpoint.includes("your-form-id")) {
+    if (settings.formspreeEndpoint.includes("xqewgnbb")) {
       event.preventDefault();
       if (formMessage) {
         formMessage.textContent = "Setup required: add your real Formspree endpoint in script.js.";
